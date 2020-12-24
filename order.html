@@ -86,6 +86,13 @@
 </head>
 
 <body>
+    <script>
+        function writeData() {
+            localStorage.setItem('totalCost', 0);
+            localStorage.setItem('productsInCart', JSON.stringify(null));
+            localStorage.setItem('cartNumbers', 0);
+        }
+    </script>
 
     <!-- Start header -->
     <header class="top-navbar">
